@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive food website design </title>
+
+    
+</head>
+
+<body>
+    <style>
+
+    form{
+        display: block;
+    }
+    </style>   
+
+
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="vehicle">Select Your Vehicle:</label>
+        <input type="checkbox" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label>
+        <input type="checkbox" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label>
+        <input type="checkbox" name="vehicle3" value="Boat" checked>
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <label for="language">Select Your favourite language:</label>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="ufile">Uplaod Document: </label>
+        <input type="file" id="ufile" name="ufile"><br><br>
+        <label for="addrange">Add Range: </label>
+        10<input type="range" id="addrange" name="addrange" value="50">150<br><br>
+        <label for="mail_id">Enter Email_ID:</label>
+        <input type="email" id="mail_id" name="mail_id"><br><br>
+        <label for="telephone">Add Contact Number: </label>
+        <input type="tel" id="telephone" name="telephone"><br><br>
+        <label for="num">Add Number of Items: </label>
+        <input type="number" id="num" name="num"><br><br>
+        <label for="desc">Add Description: </label>
+        <input type="text" id="desc" name="desc"><br><br>
+        <label for="pwd">Password: </label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+
+     
+
+</body>
+
+
+</html>
